@@ -1,10 +1,63 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My GitHub Website</title>
+    <title>My Chat App</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Welcome to my GitHub website!</h1>
-    <p>This is my first GitHub website.</p>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <section id="banner">
+      <h1>My Chat App</h1>
+      <p>A fast, secure, and reliable chat app for teams</p>
+      <a href="#download">Download Now</a>
+    </section>
+    
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Secure Messaging:</strong> End-to-end encryption ensures that messages are secure and private.</li>
+        <li><strong>File Sharing:</strong> Share files of any type and size with your team.</li>
+        <li><strong>Customizable Themes:</strong> Choose from a variety of themes to customize the app to your liking.</li>
+        <li><strong>Group Chats:</strong> Create group chats with up to 50 members for easy collaboration.</li>
+        <li><strong>Desktop and Mobile Apps:</strong> Use the app on your desktop or on the go with our mobile app.</li>
+      </ul>
+    </section>
+    
+    <section id="download">
+      <h2>Download</h2>
+      <p>Download the app for your desktop or mobile device.</p>
+      <ul>
+        <li><a href="#">Download for Windows</a></li>
+        <li><a href="#">Download for macOS</a></li>
+        <li><a href="#">Download for iOS</a></li>
+        <li><a href="#">Download for Android</a></li>
+      </ul>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or feedback, please get in touch!</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 My Chat App. All rights reserved.</p>
+    </footer>
   </body>
 </html>
